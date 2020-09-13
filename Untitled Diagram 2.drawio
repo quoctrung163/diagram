@@ -1,11 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2020-09-13T13:47:18.847Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4262.0 Safari/537.36" etag="tz73wSQG3adaH5ReBogx" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-13T13:53:31.316Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4262.0 Safari/537.36" etag="PvvSNOx_w7qKUY4xcWjW" version="13.6.10" type="github">
   <diagram id="ca19I_yiCBgmw5bgkrrT" name="Page-1">
-    <mxGraphModel dx="1038" dy="948" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="1348" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="h6cpHLvueDqFhHNppa8h-2" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&amp;lt;&amp;lt; interface &amp;gt;&amp;gt;&lt;/span&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;SpeciesAnimalFactory&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="324" y="-336" width="157" height="60" as="geometry" />
+          <mxGeometry x="214" y="-236" width="204" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h6cpHLvueDqFhHNppa8h-3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;ReptileAnimalFactory&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225.5" y="-424" width="181" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h6cpHLvueDqFhHNppa8h-4" value="+getAnimal(string type): Animal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="-176" width="204" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="h6cpHLvueDqFhHNppa8h-5" value="+getAnimal(string type): Animal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225.5" y="-364" width="181" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="h6cpHLvueDqFhHNppa8h-6" value="&lt;font style=&quot;font-size: 14px&quot;&gt;MammalAnimalFactory&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225.5" y="-48" width="181" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h6cpHLvueDqFhHNppa8h-7" value="+getAnimal(string type): Animal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225.5" y="12" width="181" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="h6cpHLvueDqFhHNppa8h-8" value="" style="endArrow=block;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="1" source="h6cpHLvueDqFhHNppa8h-5" target="h6cpHLvueDqFhHNppa8h-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="477" y="-296" as="sourcePoint" />
+            <mxPoint x="437" y="-189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6cpHLvueDqFhHNppa8h-9" value="" style="endArrow=block;html=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="h6cpHLvueDqFhHNppa8h-6" target="h6cpHLvueDqFhHNppa8h-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="326" y="-226" as="sourcePoint" />
+            <mxPoint x="471" y="-139" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
